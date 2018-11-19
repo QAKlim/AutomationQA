@@ -23,6 +23,7 @@ public class SamoleTest2 {
         WebDriver arg = new Augmenter().augment(driver);
         File scren = ((TakesScreenshot)arg).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scren, new File("D:\\screenshot.png"));
+        //Test clone
 
 
     }
